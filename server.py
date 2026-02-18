@@ -1,7 +1,8 @@
 """
 Emotion Detection Server
 
-This script implements a Flask-based web server that analyzes user-provided text and detects the expressed emotion.
+This script implements a Flask-based web server that 
+analyzes user-provided text and detects the expressed emotion.
 
 Author: Nayan Nath
 """
@@ -43,7 +44,7 @@ def render_index_page():
     ''' This function initiates the rendering of the main application
         page over the Flask channel
     '''
-    
+
     return render_template('index.html')
 
 
